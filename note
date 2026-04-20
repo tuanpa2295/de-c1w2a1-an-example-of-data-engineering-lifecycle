@@ -1,0 +1,4 @@
+
+mysql --host=de-c1w2-rds.cp22iey2472s.us-east-1.rds.amazonaws.com --user=admin --password=adminpwrd --port=3306
+
+aws glue get-job-run --job-name de-c1w2-etl-job --run-id jr_d1bd7f06d4a44d8257166dca271f8744a46f735d70c6acea8727149156eb687e --output text --query "JobRun.JobRunState"
